@@ -79,10 +79,10 @@
                 <a class="nav-link" aria-current="page" href="#INTRO">Intro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#service">Skills</a>
+                <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">pro</a>
+                <a class="nav-link" href="#timeline">Timeline</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -157,7 +157,6 @@
 
     <!-- Skills Section -->
     <section id="skills" class="skills section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
@@ -274,7 +273,7 @@
                     <h4>LLM-based Multi-Agent System</h4>
                     <p><strong>ML Engineer Intern - GenAI @ Trustable</strong> | <strong>Paris, France</strong> | <em>Mar 2024 - Aug 2024</em></p>
                     <p class="text-muted">A POC graph system with a centralized structure, where a central node orchestrates the processes within a group of agents to achieve a high-level goal. Each agent is an expert in a specific task and utilizes tools, such as Bash shell and Bing search, to interact with the external environment.</p>
-                    <p> <strong>Keywords:</strong> Machine learning, Prompt engineering, RAG, Penetration testing, LLMs, Python, Ollama, Faiss, LlamaIndex, LangChain, LangGraph, LangSmith.</p>
+                    <p> <strong>Keywords:</strong> Machine learning, Prompt engineering, RAG, Penetration testing, LLMs, Python, Ollama, Faiss, LlamaIndex, LangChain, LangGraph, LangSmith, Gitlab.</p>
                   </div>                  
                 </div>                
               </div>
@@ -289,53 +288,98 @@
                     <h4>Smart Meter Test Plan Generation</h4>
                     <p><strong>Data Scientist Intern - GenAI @ Sagemcom</strong> | <strong>Tunis, Tunisia</strong> | <em>Oct 2023 - Jan 2024</em></p>
                     <ul class="text-muted">
-                      <li>Extracted and preprocessed requirements to be verified and their corresponding test cases , all related to a specific
-                        smart meter from Word, PDF, and XLS files using Python-docx, Xls2xlsx, and Pandas libraries.</li>
-                      <li>Fine-tuned Llama-2 model on our custom dataset, using the transformers, bitsandbytes, peft and accelerate libraries.</li>
-                      <li>Developed a Streamlit application to generate a test case based on given requirement using PyTorch and Cudatoolkit.</li>
+                      <li>Collected and performed exploratory data analysis (EDA) on a smart meter’s requirements and test plans from Word, PDF, and
+                        XLS files using Python-docx, Xls2xlsx, and Pandas libraries.</li>
+                      <li>Fine-tuned Llama-2 model on requirement-test case pairs dataset, using the transformers, bitsandbytes, peft and accelerate Hugging Face libraries.</li>
+                      <li>built a Streamlit application locally to generate a test case based on given requirement using PyTorch and Cudatoolkit.</li>
                     </ul>
-                    <p> <strong>Keywords:</strong> Smart meters, Deep learning, Transformers, LLMs, QLoRA, PEFT Python, Pandas, Python-docx, Xls2xlsx. </p>
+                    <p> <strong>Keywords:</strong> Smart meters, Deep learning, Transformers, LLMs, QLoRA, PEFT, Python, Pandas, Python-docx, Xls2xlsx. </p>
                   </div>                  
                 </div>                
               </div>
             </div>
-            
             <div class="carousel-item">
-              <div class="row justify-content-evenly">
-                <div class="col-2 text-center">
-                  <i class="bi bi-quote"></i>
-                </div>
-                <div class="col-10">
-                  <img src="images/client3.jpg" class="img-fluid rounded-circle mb-3" alt="Client 3" style="width: 50px; height: 50px;" />
-                  <p class="text-muted">
-                    Quisruam est, qui dolorem ipsum quia dolor sit amet,
-                    consecteaur aeci velit, sed quia non numquam eius modi
-                    tempora incidunt ut lao magnam aliquam quaerat ...
-                  </p>
-                  <h4>Alex Johnson</h4>
-                  <small class="fs-6 text-muted">Founder of Startup</small>
-                </div>
+              <div class="row">
+                <div class="row">
+                  <div class="col-md-2 d-flex align-items-center justify-content-center">
+                    <img src="images/logoTrustable.png" class="img-fluid" alt="Trustable" />
+                  </div>
+                  <div class="col-md-10">
+                    <h4>AI-Powered chat assistant for pen testers</h4>
+                    <p><strong>Data Scientist Intern - GenAI @ Trustable</strong> | <strong>Tunis, Tunisia</strong> | <em> Jun 2023 - Aug 2023
+                    </em></p>
+                    <ul class="text-muted">
+                      <li>Understood the transformer-based architectures, with a focus on open-source Large Language Models (LLMs).</li>
+                      <li>Gathered and preprocessed penetration tests JSON logs, creating a current session’s summary-next command pairs dataset.</li>
+                      <li>Fine-tuned Llama-2 model to predict the next command using the Transformers, bitsandbytes, and peft Hugging Face libraries.</li>
+                    </ul>
+                    <p> <strong>Keywords:</strong> Python, LLMs, Fine-tuning, PEFT, Transformers, QLoRA, Pandas, Hugging Face, bitsandbytes, PyTorch.</p>
+                  </div>                  
+                </div>                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="row">
+                  <div class="col-md-2 d-flex align-items-center justify-content-center">
+                    <img src="images/actia.jpg" class="img-fluid" alt="Actia" />
+                  </div>
+                  <div class="col-md-10">
+                    <h4>MmWave Radar and Camera data fusion for drowsiness detection</h4>
+                    <p><strong>Machine Learning Engineer Intern @ ACTIA Engineering Services</strong> | <strong>Tunis, Tunisia</strong> | <em> Jan 2023 - Jun 2023
+                    </em></p>
+                    <ul class="text-muted">
+                      <li>Preprocessed, labeled drivers’ facial images and tuned the YOLOv4-tiny model to detect drowsiness using Darknet.</li>
+                      <li>Applied signal processing techniques to MmWave radar data and trained an SVM model for drowsiness prediction.</li>
+                      <li>Enhanced detection through decision-level fusion with an equal probability distribution from both camera and radar sensors.</li>
+                    </ul>
+                    <p> <strong>Keywords:</strong> Python, OpenCV, TensorFlow, SciPy, Matplotlib, Seaborn, NumPy, YOLOv4-tiny, SVM, scikit-learn, Darknet.</p>
+                  </div>                  
+                </div>                
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="row">
+                  <div class="col-md-2 d-flex align-items-center justify-content-center">
+                    <img src="images/anpr.jpg" class="img-fluid" alt="ANPR" />
+                  </div>
+                  <div class="col-md-10">
+                    <h4>MOBIDOC-PROMESSE Platform</h4>
+                    <p><strong> Software Engineering Intern @ ANPR</strong> | <strong>Tunis, Tunisia</strong> | <em> Jun 2022 - Aug 2022
+                    </em></p>
+                    <ul class="text-muted">
+                      <li>Organized a training session for doctors and doctoral students enrolled in the MOBIDOC-PROMESSE program.</li>
+                      <li>Performed an Exploratory Data Analysis on feedback from participants to identify key areas of improvement. </li>
+                      <li>Developed a platform that allows the staff of ANPR to follow up on projects of MOBIDOC doctors using Laravel and MySQL.</li>
+                    </ul>
+                    <p> <strong>Keywords:</strong> Business Communications, Data Analysis, Laravel , MySQL.</p>
+                  </div>                  
+                </div>                
               </div>
             </div>
           </div>
-          <button
-            class="nextprev-btn rounded-pill prev-btn"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-          >
-            <i class="bi bi-arrow-left-circle-fill prev"></i>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="nextprev-btn rounded-pill next-btn"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-          >
-            <i class="bi bi-arrow-right-circle-fill next"></i>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="d-flex justify-content-center">
+            <button
+              class="nextprev-btn rounded-pill prev-btn me-2"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <i class="bi bi-arrow-left-circle-fill prev"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="nextprev-btn rounded-pill next-btn ms-2"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <i class="bi bi-arrow-right-circle-fill next"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -385,9 +429,8 @@
         </div>  
       </div>
     <div class="container text-center mt-5">
-      <h2 class="mb-4">To see more of my projects...</h2>
-      <a href="https://github.com/ewadkins" class="btn btn-xl btn-dark" target="blank">Visit My GitHub &nbsp;<i class="fa fa-github"></i></a>
-      <!--<a href="#" class="btn btn-xl btn-dark">View Project Demos</a>-->
+      <p class="mb-4">To see more of my projects...</p>
+      <a href="https://github.com/ewadkins" class="btn btn-xl btn-dark" target="blank">Visit My GitHub &nbsp;<i class="fab fa-github"></i></a>
     </div>
   </section>
   <!-- Portfolio Modals -->
@@ -621,18 +664,10 @@
         <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
           <div class="row justify-content-evenly">
             <div class="col-1">
-              <i class="bi bi-geo-alt-fill"></i>
-            </div>
-            <div class="col-11">
-              <p>121 King Street Melbourne, 3000, Australia</p>
-            </div>
-          </div>
-          <div class="row justify-content-evenly">
-            <div class="col-1">
               <i class="bi bi-telephone-fill"></i>
             </div>
             <div class="col-11">
-              <p>+91 9527818693</p>
+              <p>+216 24 036 575</p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -640,7 +675,7 @@
               <i class="bi bi-send-fill"></i>
             </div>
             <div class="col-11">
-              <p>codewithpawan@gmail.com</p>
+              <p>chayma.hamdi@supcom.tn</p>
             </div>
           </div>
           <div class="row justify-content-evenly">
@@ -648,7 +683,7 @@
               <i class="bi bi-globe-americas"></i>
             </div>
             <div class="col-11">
-              <p>codingpawan.com</p>
+              <p>chaymahamdi@github.io</p>
             </div>
           </div>
         </div>
@@ -668,14 +703,6 @@
                 class="form-control"
                 id="exampleFormControlInput1"
                 placeholder="E-mail"
-              />
-            </div>
-            <div class="mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Mobile No."
               />
             </div>
             <div class="mb-3">
@@ -705,35 +732,23 @@
     </button>
 
     <!-- footer section starts  -->
-    <footer class="text-center text-muted py-4">
-      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
-      <div class="link-group mt-5" data-aos="fade-up">
-        <a href="#home">Home</a>
-        <div class="vr"></div>
-        <a href="#about">About</a>
-        <div class="vr"></div>
-        <a href="#service">Service</a>
-        <div class="vr"></div>
-        <a href="#portfolio">Portfolio</a>
-        <div class="vr"></div>
-        <a href="#blog">Blog</a>
-        <div class="vr"></div>
-        <a href="#contact">Contact</a>
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container">
+        <h3 class="sitename" style="color: #05195f;">Chayma Hamdi</h3>
+        <p>hope this portfolio gives you a clear insight into my work and passion. I’d love to hear your thoughts, so feel free to reach out. <br>Stay tuned as I continue to share new projects and insights!</p>
+        <div class="social-links d-flex justify-content-center">
+          <a href=""><i class="bi bi-twitter-x"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-skype"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <span>Copyright</span> <strong class="px-1 sitename">Alex Smith</strong> <span>All Rights Reserved</span>
+          </div>
+        </div>
       </div>
-      <div class="social-links mt-5" data-aos="fade-up">
-        <button href="" class="rounded-pill dribble">
-          <i class="bi bi-dribbble"></i>
-        </button>
-        <button href="" class="rounded-pill whatsapp">
-          <i class="bi bi-whatsapp"></i>
-        </button>
-        <button href="" class="rounded-pill behance">
-          <i class="bi bi-behance"></i>
-        </button>
-      </div>
-      <hr class="text-muted my-4" />
-
-      <p>Copyright 2022 Portfolio | All Rights Reserved.</p>
     </footer>
     <!-- footer section ends here -->
 
