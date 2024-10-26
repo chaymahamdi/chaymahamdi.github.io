@@ -228,7 +228,7 @@ ul.social-buttons {
   #skills *, .skills.section * {
     box-sizing: border-box;
   }
-  #timeline, #INTRO{
+  #blog, #timeline, #INTRO{
     background-color: color-mix(in srgb, var(--default-color), transparent 95%);
   }
 /*--------------------------------------------------------------
@@ -443,6 +443,7 @@ ul.social-buttons {
   .portfolio-item .caption .caption-content {
     color: #fff;
     margin: auto 2rem 2rem;
+    text-shadow: 0px 0px 20px #000000;
     
   }
   
