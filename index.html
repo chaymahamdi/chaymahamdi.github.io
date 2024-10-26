@@ -107,9 +107,9 @@
 
         <!-- Text Section (Centered) -->
         <div class="col-10 col-md-6 text-center mt-4">
-          <h5 style="color: #05195f">
-            <span class="c-orange">Chayma Hamdi</span>
-          </h5>
+          <h1 style="color:#05195f;">
+            <span>Chayma Hamdi</span>
+          </h1>
           <p>
             <span style="color:rgba(0, 0, 0, .5)">Hi, I'm a Machine Learning Engineer specializing in </span>Generative AI <span style="color:rgba(0, 0, 0, .5)">and</span> Large Language Models (LLMs).
           </p>
@@ -387,56 +387,61 @@
   </div>
 </section>
 <!-- timeline ends here -->
-   <!-- Portfolio -->
-   <section class="content-section section mt-5" id="portfolio">
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Portfolio</h2>
-      <p>A glimpse into my academic and personal projects that I've done on my own.</p>
-    </div><!-- End Section Title -->
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="col-lg-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
-            <span class="caption">
-              <span class="caption-content">
-                <h5 class="mb-0">Bike Stations Data Pipeline</h5>
-                <p class="mb-0">Real-time Data Pipeline for JCDecaux Velib Stations.</p>
-              </span>
+  <!-- Portfolio -->
+<section class="content-section section mt-5" id="portfolio">
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Portfolio</h2>
+    <p>A glimpse into my academic and personal projects that I've done on my own.</p>
+  </div><!-- End Section Title -->
+  
+  <div class="container">
+    <div class="row gy-4"> <!-- Added gy-4 to add vertical spacing between items on smaller screens -->
+      <div class="col-lg-4 col-12">
+        <a class="portfolio-item" data-toggle="modal" href="#portfolioModal1">
+          <span class="caption">
+            <span class="caption-content">
+              <h5 class="mb-0">Bike Stations Data Pipeline</h5>
+              <p class="mb-0">Real-time Data Pipeline for JCDecaux Velib Stations.</p>
             </span>
-            <img class="portfolio-img" src="images/data2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-lg-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal2">
-            <span class="caption">
-              <span class="caption-content">
-                <h5 class="mb-0">Smart Plant Pot System</h5>
-                <p class="mb-0">Simple application of MLOps for IoT Edge.</p>
-              </span>
-            </span>
-            <img class="portfolio-img" src="images/project2.png" alt="">
-          </a>
-        </div>
-        <div class="col-lg-4">
-          <a class="portfolio-item" data-toggle="modal" href="#portfolioModal3">
-            <span class="caption">
-              <span class="caption-content">
-                <h4>NN Experiments</h4>
-                <p class="mb-0">A collection of various neural network models in TensorFlow.</p>
-              </span>
-            </span>
-            <img class="portfolio-img" src="images/mlops.png" alt="">
-          </a>
-        </div>  
+          </span>
+          <img class="portfolio-img" src="images/data2.jpg" alt="">
+        </a>
       </div>
+      
+      <div class="col-lg-4 col-12">
+        <a class="portfolio-item" data-toggle="modal" href="#portfolioModal2">
+          <span class="caption">
+            <span class="caption-content">
+              <h5 class="mb-0">Smart Plant Pot System</h5>
+              <p class="mb-0">Simple application of MLOps for IoT Edge.</p>
+            </span>
+          </span>
+          <img class="portfolio-img" src="images/project2.png" alt="">
+        </a>
+      </div>
+      
+      <div class="col-lg-4 col-12">
+        <a class="portfolio-item" data-toggle="modal" href="#portfolioModal3">
+          <span class="caption">
+            <span class="caption-content">
+              <h5>NN Experiments</h5>
+              <p class="mb-0">A collection of various neural network models in TensorFlow.</p>
+            </span>
+          </span>
+          <img class="portfolio-img" src="images/mlops.png" alt="">
+        </a>
+      </div>
+    </div>
+    
     <div class="container text-center mt-5">
       <p class="mb-4">To see more of my projects...</p>
-      <a href="https://github.com/chaymahamdi" class="btn btn-xl btn-dark" target="blank">Visit My GitHub &nbsp;<i class="fab fa-github"></i></a>
+      <a href="https://github.com/chaymahamdi" class="btn btn-xl btn-dark" target="_blank">
+        Visit My GitHub &nbsp;<i class="fab fa-github"></i>
+      </a>
     </div>
-  </section>
-  <!-- Portfolio Modals -->
-
-
+  </div>
+</section>
+ <!-- Portfolio Modals -->
 
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
@@ -714,39 +719,37 @@
             </div>
           </div>
         </div>
+        
         <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
           <div class="contact-form">
-            <div class="mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Name"
-              />
-            </div>
-            <div class="mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="E-mail"
-              />
-            </div>
-            <div class="mb-3">
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                placeholder="Message"
-                rows="5"
-              ></textarea>
-            </div>
-            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
-              Submit
-            </button>
+            <form action="https://formspree.io/f/mvgozzqb" method="POST">
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="E-mail"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  placeholder="Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </div>
     </section>
+    
     <!-- contact section ends here -->
 
       <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
