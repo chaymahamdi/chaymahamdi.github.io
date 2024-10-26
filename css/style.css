@@ -49,7 +49,7 @@ ul.social-buttons {
   ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
     color: #05195f;
   }
-  
+
 /* styling menu icon */
 .nav-menu{
     border: none;
@@ -228,7 +228,9 @@ ul.social-buttons {
   #skills *, .skills.section * {
     box-sizing: border-box;
   }
-  
+  #timeline, #INTRO{
+    background-color: color-mix(in srgb, var(--default-color), transparent 95%);
+  }
 /*--------------------------------------------------------------
 # Skills Section
 --------------------------------------------------------------*/
@@ -655,15 +657,15 @@ ul.social-buttons {
 }
 .timeline .nextprev-btn{
     border: none;
-    background-color: #fff;
+    background-color: color-mix(in srgb, var(--default-color), transparent 95%);
 }
 .prev:hover,.prev-btn:hover{
-    color:#6f34fe;
+    color:#085298;
     transform: translateX(-10px);
     transition-duration: 1s;
 }
 .next:hover,.next-btn:hover{
-    color:#6f34fe;
+    color:#085298;
     transform: translateX(10px);
     transition-duration: 1s;
 }
