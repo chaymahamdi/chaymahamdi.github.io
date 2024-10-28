@@ -496,7 +496,7 @@ ul.social-buttons {
       clip-path: inset(1rem);
     }
     .portfolio-item:hover .caption {
-      background-color: rgba(41, 136, 188, 0.9); /*rgba(29, 128, 159, 0.9)*/
+      background-color: rgb(155 155 163 / 59%);
       -webkit-clip-path: inset(1rem);
       clip-path: inset(1rem);
     }
